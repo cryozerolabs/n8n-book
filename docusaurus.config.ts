@@ -75,7 +75,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: "light",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: "冰零的n8n实战指南",
@@ -89,6 +91,12 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "实战指南",
+        },
+        {
+          to: "/workflows",
+          label: "模版仓库",
+          position: "left", // 放在左侧
+          className: "workflow-nav-item",
         },
         { to: "/blog", label: "博客", position: "left" },
         {
@@ -143,8 +151,8 @@ const config: Config = {
           title: "💬 关注冰零",
           items: [
             {
-              label: "Blog",
-              href: "https://blog.cryozerolabs.com/",
+              label: "冰零实验室",
+              href: "https://blog.cryozero.com/",
             },
             {
               label: "GitHub",
