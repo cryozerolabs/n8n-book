@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /n8n-basics/core-concepts/nodes
 ---
 
 # 节点 (Nodes)
@@ -33,4 +34,4 @@ sidebar_position: 1
 
 > 💡 **小贴士**：节点可以通过拖拽重新排列位置
 
-👉 **下一节**：[连接与数据流](/docs/n8n-basics/02-core-concepts/connections)
+👉 **下一节**：[连接与数据流](/docs/n8n-basics/core-concepts/connections)

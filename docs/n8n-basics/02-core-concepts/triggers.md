@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /n8n-basics/core-concepts/triggers
 ---
 
 # 触发器 (Triggers)
@@ -31,4 +32,4 @@ sidebar_position: 3
 
 > ⚠️ **注意**：一个工作流可以有多个触发器
 
-👉 **下一节**：[表达式](/docs/n8n-basics/02-core-concepts/expressions)
+👉 **下一节**：[表达式](/docs/n8n-basics/core-concepts/expressions)

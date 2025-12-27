@@ -3,7 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "slug": "n8n-basics/getting-started",
+    "slug": "/n8n-basics/getting-started",
     "description": "从零开始，5分钟部署你的第一个 n8n 实例"
   }
 }

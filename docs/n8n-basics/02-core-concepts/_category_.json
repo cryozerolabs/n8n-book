@@ -3,7 +3,7 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "slug": "n8n-basics/core-concepts",
+    "slug": "/n8n-basics/core-concepts",
     "description": "掌握 n8n 的核心概念，理解工作流运转原理"
   }
 }

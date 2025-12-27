@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /n8n-basics/advanced/ai-coding
 ---
 
 # 让 AI 帮你写代码
@@ -45,4 +46,4 @@ AI：可以使用这段代码...
 
 > 🎯 **记住**：零代码不是真的一行代码都不写，而是不需要你自己从头写！
 
-👉 **下一节**：[错误处理](/docs/n8n-basics/04-advanced/error-handling)
+👉 **下一节**：[错误处理](/docs/n8n-basics/advanced/error-handling)

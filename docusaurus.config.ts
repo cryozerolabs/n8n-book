@@ -117,7 +117,7 @@ const config: Config = {
             },
             {
               label: "进阶技巧",
-              to: "/docs/n8n-basics/04-advanced/ai-coding",
+              to: "/docs/n8n-basics/advanced/ai-coding",
             },
             {
               label: "模版仓库",

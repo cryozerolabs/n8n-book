@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /n8n-basics/getting-started/install-docker
 ---
 
 # Docker 部署 n8n
@@ -40,4 +41,4 @@ docker run -d \
 
 > 💡 **提示**：后续章节会详细讲解生产环境部署配置
 
-👉 **下一步**：[创建第一个工作流](/docs/n8n-basics/01-getting-started/first-workflow)
+👉 **下一步**：[创建第一个工作流](/docs/n8n-basics/getting-started/first-workflow)

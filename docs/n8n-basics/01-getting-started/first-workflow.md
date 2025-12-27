@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /n8n-basics/getting-started/first-workflow
 ---
 
 # 第一个工作流
@@ -36,4 +37,4 @@ sidebar_position: 3
 
 🎉 **恭喜！你已经完成了第一个工作流！**
 
-👉 **下一章**：[核心概念](/docs/n8n-basics/02-core-concepts/nodes)
+👉 **下一章**：[核心概念](/docs/n8n-basics/core-concepts/nodes)

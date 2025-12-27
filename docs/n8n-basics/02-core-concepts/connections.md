@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /n8n-basics/core-concepts/connections
 ---
 
 # 连接与数据流
@@ -39,4 +40,4 @@ n8n 中的数据以 **JSON** 格式流动：
 
 ---
 
-👉 **下一节**：[触发器](/docs/n8n-basics/02-core-concepts/triggers)
+👉 **下一节**：[触发器](/docs/n8n-basics/core-concepts/triggers)

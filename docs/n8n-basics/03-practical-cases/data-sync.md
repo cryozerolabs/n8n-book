@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /n8n-basics/practical-cases/data-sync
 ---
 
 # 数据同步
@@ -38,6 +39,6 @@ sidebar_position: 3
 
 ---
 
-> 💡 **进阶内容**：错误处理详见 [进阶章节](/docs/n8n-basics/04-advanced/error-handling)
+> 💡 **进阶内容**：错误处理详见 [进阶章节](/docs/n8n-basics/advanced/error-handling)
 
-👉 **下一章**：[进阶技巧](/docs/n8n-basics/04-advanced/ai-coding)
+👉 **下一章**：[进阶技巧](/docs/n8n-basics/advanced/ai-coding)

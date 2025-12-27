@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /n8n-basics/advanced/error-handling
 ---
 
 # 错误处理
@@ -48,4 +49,4 @@ sidebar_position: 2
 
 ---
 
-👉 **下一节**：[生产部署](/docs/n8n-basics/04-advanced/deployment)
+👉 **下一节**：[生产部署](/docs/n8n-basics/advanced/deployment)

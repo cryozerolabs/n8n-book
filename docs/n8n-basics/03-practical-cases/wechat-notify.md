@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /n8n-basics/practical-cases/wechat-notify
 ---
 
 # 微信通知
@@ -42,4 +43,4 @@ sidebar_position: 2
 
 ---
 
-👉 **下一个案例**：[数据同步](/docs/n8n-basics/03-practical-cases/data-sync)
+👉 **下一个案例**：[数据同步](/docs/n8n-basics/practical-cases/data-sync)

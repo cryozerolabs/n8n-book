@@ -1,6 +1,6 @@
 {
-  "name": "n-8-n-book",
-  "version": "0.0.0",
+  "name": "n8n-book",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

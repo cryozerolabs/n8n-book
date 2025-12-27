@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /n8n-basics/getting-started/what-is-n8n
 ---
 
 # n8n 是什么
@@ -35,4 +36,4 @@ sidebar_position: 1
 
 ---
 
-👉 **下一步**：[Docker 部署 n8n](/docs/n8n-basics/01-getting-started/install-docker)
+👉 **下一步**：[Docker 部署 n8n](/docs/n8n-basics/getting-started/install-docker)

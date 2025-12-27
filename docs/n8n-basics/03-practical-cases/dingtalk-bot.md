@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /n8n-basics/practical-cases/dingtalk-bot
 ---
 
 # 钉钉机器人
@@ -38,4 +39,4 @@ sidebar_position: 1
 
 > 🔧 **模板下载**：可在 [模板仓库](/workflows) 直接导入
 
-👉 **下一个案例**：[微信通知](/docs/n8n-basics/03-practical-cases/wechat-notify)
+👉 **下一个案例**：[微信通知](/docs/n8n-basics/practical-cases/wechat-notify)

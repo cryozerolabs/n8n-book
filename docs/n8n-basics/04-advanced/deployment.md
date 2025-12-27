@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /n8n-basics/advanced/deployment
 ---
 
 # 生产部署

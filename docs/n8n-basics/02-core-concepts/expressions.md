@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: /n8n-basics/core-concepts/expressions
 ---
 
 # 表达式 (Expressions)
@@ -40,4 +41,4 @@ sidebar_position: 4
 
 > 💡 **AI 帮你写**：不会写表达式？把需求告诉 AI，让它帮你生成！
 
-👉 **下一章**：[实战案例](/docs/n8n-basics/03-practical-cases/dingtalk-bot)
+👉 **下一章**：[实战案例](/docs/n8n-basics/practical-cases/dingtalk-bot)
