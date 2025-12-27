@@ -14,7 +14,7 @@ const WorkflowList = Array.from({ length: 50 }).map((_, i) => ({
       ? "微信公众号自动回复系统，接入 DeepSeek AI。"
       : "钉钉销售战报自动推送，MySQL 数据源。",
   tags: i % 2 === 0 ? ["微信", "AI"] : ["钉钉", "办公"],
-  link: "/docs/workflows/001-demo", // 这里的 link 指向具体的文档页
+  link: "/docs/workflows/wechat-bot", // 这里的 link 指向具体的文档页
   image: "/img/logo.jpg",
 }));
 
