@@ -88,17 +88,16 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "basicsSidebar",
           position: "left",
-          label: "实战指南",
+          label: "📘 玩转 n8n",
         },
         {
           to: "/workflows",
-          label: "模版仓库",
-          position: "left", // 放在左侧
-          className: "workflow-nav-item",
+          label: "📦 模版仓库",
+          position: "left",
         },
-        { to: "/blog", label: "博客", position: "left" },
+        { to: "/blog", label: "📝 博客", position: "left" },
         {
           href: "https://github.com/cryozerolabs/n8n-book",
           label: "GitHub",
@@ -110,15 +109,15 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "📘 实战指南",
+          title: "📘 玩转 n8n",
           items: [
             {
               label: "快速开始",
-              to: "/docs/books/intro",
+              to: "/docs/n8n-basics/intro",
             },
             {
-              label: "进阶教程",
-              to: "/docs/books/advanced",
+              label: "进阶技巧",
+              to: "/docs/n8n-basics/04-advanced/ai-coding",
             },
             {
               label: "模版仓库",

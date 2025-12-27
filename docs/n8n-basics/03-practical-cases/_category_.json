@@ -1,0 +1,9 @@
+{
+  "label": "第三章：实战案例",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "slug": "n8n-basics/practical-cases",
+    "description": "拿来即用的真实业务场景案例"
+  }
+}
