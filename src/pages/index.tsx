@@ -14,15 +14,24 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          玩转 n8n：小白也能学会的自动化
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          零代码实现自动化工作流，遇到代码让 AI 帮你写，真正的小白也能做！
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/books/intro"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            🚀 开始学习
+          </Link>
+          <Link
+            className="button button--outline button--primary button--lg"
+            to="/workflows"
+            style={{ marginLeft: "1rem" }}
+          >
+            📦 浏览模板库
           </Link>
         </div>
       </div>
@@ -31,11 +40,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="玩转 n8n - 小白也能学会的自动化"
+      description="零代码实现自动化工作流，遇到代码让 AI 帮你写。从入门到精通的 n8n 中文教程，适合小白、白领、中小企业主。"
     >
       <HomepageHeader />
       <main>

@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "冰零的n8n实战指南",
-  tagline: "冰零的n8n实战指南",
+  tagline: "零代码自动化，从入门到精通",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
