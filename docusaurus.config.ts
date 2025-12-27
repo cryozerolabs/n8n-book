@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "n8n 实战指南",
-  tagline: "Dinosaurs are cool",
+  title: "冰零的n8n实战指南",
+  tagline: "冰零的n8n实战指南",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -34,8 +34,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 
   presets: [
@@ -78,21 +78,21 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "冰零的n8n实战指南",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "冰零的n8n实战指南",
+        src: "img/logo.png",
       },
       items: [
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "实战指南",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "博客", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/cryozerolabs/n8n-book",
           label: "GitHub",
           position: "right",
         },
@@ -102,46 +102,62 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "📘 实战指南",
           items: [
             {
-              label: "Tutorial",
+              label: "快速开始",
               to: "/docs/intro",
             },
+            {
+              label: "进阶教程",
+              to: "/docs/advanced",
+            },
+            {
+              label: "模版仓库",
+              to: "/workflows",
+            },
           ],
         },
         {
-          title: "Community",
+          title: "🛠️ 技术生态",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "n8n 官方文档",
+              href: "https://docs.n8n.io/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Docker Hub",
+              href: "https://hub.docker.com/",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "钉钉 n8n 插件",
+              href: "https://www.npmjs.com/package/@cryozerolabs/n8n-nodes-dingtalk",
+            },
+            {
+              label: "DeepSeek API",
+              href: "https://platform.deepseek.com/",
             },
           ],
         },
         {
-          title: "More",
+          title: "💬 关注冰零",
           items: [
             {
               label: "Blog",
-              to: "/blog",
+              href: "https://blog.cryozerolabs.com/",
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/cryozerolabs",
+            },
+            {
+              label: "加入微信群",
+              to: "/contact",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 冰零实验室 (CryoZero Labs). Built with Docusaurus & n8n.`,
     },
     prism: {
       theme: prismThemes.github,
