@@ -114,11 +114,11 @@ const config: Config = {
           items: [
             {
               label: "快速开始",
-              to: "/docs/intro",
+              to: "/docs/books/intro",
             },
             {
               label: "进阶教程",
-              to: "/docs/advanced",
+              to: "/docs/books/advanced",
             },
             {
               label: "模版仓库",
